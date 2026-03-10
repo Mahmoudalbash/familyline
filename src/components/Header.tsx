@@ -24,7 +24,7 @@ export default function Header() {
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="inline-block relative w-40 h-20 md:w-48 md:h-24">
                             <img
-                                src="/logo.svg"
+                                src="/logo.png"
                                 alt="Family Line Logo"
                                 className="w-full h-full object-contain relative top-2"
                             />

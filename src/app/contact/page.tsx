@@ -9,7 +9,7 @@ export default function Contact() {
     const { t } = useLanguage();
 
     return (
-        <div className="min-h-screen bg-gray-brand/20 py-20">
+        <div className="min-h-screen bg-gray-brand/20 py-20 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 <motion.div

@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-brand min-h-screen flex flex-col font-sans`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-brand min-h-screen flex flex-col font-sans overflow-x-hidden`}
       >
         <LanguageProvider>
           <Header />
