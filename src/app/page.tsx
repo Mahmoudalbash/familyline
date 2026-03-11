@@ -37,24 +37,33 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-brand/20">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-white py-24 sm:py-32">
-        <div className="absolute inset-0 bg-pink-brand/5"></div>
+      <section className="relative overflow-hidden py-32 sm:py-48 flex items-center">
+        {/* Background Image with Dark Overlay */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/images/hero-bg.png"
+            alt="Family Line Hero Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-navy-brand/70 mix-blend-multiply"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-navy-brand/40 via-transparent to-navy-brand/60"></div>
+        </div>
+
         <motion.div
-          className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
+          className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
         >
           <motion.h1
-            className="text-5xl md:text-7xl font-extrabold text-navy-brand tracking-tight mb-6"
+            className="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6"
             variants={fadeIn}
           >
             {t('أناقة وتميز في عالم', 'Elegance and Distinction in')} <span className="text-pink-brand">{t('الإكسسوارات', 'Accessories')}</span>
           </motion.h1>
           <motion.p
-            className="mt-4 max-w-2xl mx-auto text-xl text-gray-600 mb-10"
+            className="mt-4 max-w-2xl mx-auto text-xl text-gray-200 mb-10"
             variants={fadeIn}
           >
             {t(
@@ -62,16 +71,16 @@ export default function Home() {
               'We offer the Syrian market the best wholesale options of girls accessories, gifts, and mugs with trendy designs and high quality.'
             )}
           </motion.p>
-          <motion.div variants={fadeIn} className="flex justify-center gap-4">
+          <motion.div variants={fadeIn} className="flex flex-wrap justify-center gap-4">
             <Link
               href="/services"
-              className="bg-pink-brand text-white px-8 py-4 rounded-full font-bold hover:bg-pink-brand/90 transition-all shadow-md hover:shadow-lg"
+              className="bg-pink-brand text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-pink-brand transition-all shadow-md hover:shadow-xl transform hover:-translate-y-1"
             >
               {t('تصفح خدماتنا', 'Browse Services')}
             </Link>
             <Link
               href="/contact"
-              className="bg-white text-navy-brand border border-gray-200 px-8 py-4 rounded-full font-bold hover:bg-gray-50 transition-all shadow-sm"
+              className="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-full font-bold hover:bg-white/20 transition-all shadow-sm transform hover:-translate-y-1"
             >
               {t('تواصل معنا', 'Contact Us')}
             </Link>
@@ -198,7 +207,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div
-              className="relative h-96 w-full rounded-3xl overflow-hidden bg-gray-200 shadow-2xl"
+              className="relative h-96 w-full rounded-3xl overflow-hidden bg-white shadow-2xl flex items-center justify-center p-12"
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -207,9 +216,8 @@ export default function Home() {
               <img
                 src="/logo.png"
                 alt="Family Line About Image"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="max-h-full max-w-full object-contain"
               />
-              <div className="absolute inset-0 bg-navy-brand/10"></div>
             </motion.div>
           </div>
         </div>

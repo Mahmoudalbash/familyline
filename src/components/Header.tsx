@@ -18,7 +18,7 @@ export default function Header() {
     ];
 
     return (
-        <header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <header className="bg-white sticky top-0 z-50 shadow-sm">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
                     <div className="flex-shrink-0 flex items-center">
