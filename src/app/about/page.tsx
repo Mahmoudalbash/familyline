@@ -16,7 +16,7 @@ export default function About() {
                     className="max-w-4xl mx-auto px-4 text-center relative z-10"
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
+                    transition={{ duration: 1.2 }}
                 >
                     <h1 className="text-5xl font-bold tracking-tight mb-6" style={{ fontFamily: 'var(--font-geist-sans), sans-serif' }}>
                         {t('قصتنا في', 'Our Story at')} <span className="text-pink-brand">Family Line</span>
@@ -39,7 +39,7 @@ export default function About() {
                             initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.8 }}
+                            transition={{ duration: 1.5 }}
                         >
                             <h2 className="text-3xl font-bold text-navy-brand border-b-4 border-pink-brand pb-4 inline-block mb-8">
                                 {t('رؤيتنا ورسالتنا', 'Our Vision and Mission')}
@@ -71,16 +71,16 @@ export default function About() {
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.8 }}
+                            transition={{ duration: 1.5 }}
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                                alt="Team working"
+                                src="/images/about/accessories.png"
+                                alt={t('اكسسوارات متنوعة', 'Various accessories')}
                                 className="w-full h-64 object-cover rounded-3xl mt-12 shadow-md"
                             />
                             <img
-                                src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                                alt="Company accessories"
+                                src="/images/about/mugs.png"
+                                alt={t('هدايا ومجات عصرية', 'Modern gifts and mugs')}
                                 className="w-full h-64 object-cover rounded-3xl mb-12 shadow-md"
                             />
                         </motion.div>

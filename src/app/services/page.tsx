@@ -42,7 +42,7 @@ export default function Services() {
                     className="text-center mb-16"
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
+                    transition={{ duration: 1.2 }}
                 >
                     <h1 className="text-4xl md:text-5xl font-bold text-navy-brand mb-4">
                         {t('خدمات الجملة لدينا', 'Our Wholesale Services')}
@@ -61,7 +61,7 @@ export default function Services() {
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ delay: idx * 0.1, duration: 0.6 }}
+                            transition={{ delay: idx * 0.1, duration: 1.2 }}
                         >
                             <div className="h-64 overflow-hidden relative">
                                 <img

@@ -87,7 +87,7 @@ export default function Footer() {
                 </div>
 
                 <div className="pt-8 border-t border-gray-700 flex justify-center items-center text-center w-full">
-                    <p className="text-gray-400 text-base flex flex-wrap items-center justify-center gap-x-1.5 gap-y-2">
+                    <p className="text-gray-200 text-base font-bold flex flex-wrap items-center justify-center gap-x-1.5 gap-y-2">
                         {t('صنع بحب', 'Made with')}
                         <Heart size={16} className="text-pink-brand fill-pink-brand mx-1" />
                         {t('من', 'by')}

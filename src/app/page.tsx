@@ -11,7 +11,7 @@ export default function Home() {
 
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+    visible: { opacity: 1, y: 0, transition: { duration: 1.2 } }
   };
 
   const services = [
@@ -103,7 +103,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.2, duration: 0.5 }}
+                transition={{ delay: index * 0.2, duration: 1.2 }}
                 whileHover={{ y: -5 }}
               >
                 <div className="h-48 relative mb-6 rounded-xl overflow-hidden">
@@ -132,7 +132,7 @@ export default function Home() {
             variants={fadeIn}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-navy-brand mb-4">
-              {t('لماذا تختار فاميلي لاين؟', 'Why Choose Family Line?')}
+              {t('لماذا تختار Family Line؟', 'Why Choose Family Line?')}
             </h2>
             <div className="w-24 h-1 bg-pink-brand mx-auto rounded-full"></div>
           </motion.div>
@@ -150,7 +150,7 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ delay: idx * 0.1, duration: 0.5, type: 'spring' }}
+                transition={{ delay: idx * 0.1, duration: 1.2, type: 'spring' }}
                 whileHover={{ y: -10 }}
               >
                 <div className="w-20 h-20 bg-gray-brand/30 rounded-full flex items-center justify-center mb-6 group-hover:bg-pink-brand/20 transition-colors group-hover:scale-110 duration-300">
@@ -177,7 +177,7 @@ export default function Home() {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 1.2 }}
             >
               <h2 className="text-3xl md:text-5xl font-bold text-navy-brand mb-6">
                 {t('عن فاميلي لاين', 'About Family Line')}
@@ -202,7 +202,7 @@ export default function Home() {
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 1.2 }}
             >
               <img
                 src="/logo.png"
