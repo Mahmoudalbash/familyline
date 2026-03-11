@@ -86,7 +86,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-lg">{t('العنوان', 'Address')}</h4>
-                                        <p className="text-gray-300 mt-1">{t('سوق الحريقة، دمشق، سوريا', 'Al-Hariqa Market, Damascus, Syria')}</p>
+                                        <p className="text-gray-300 mt-1">{t('سوريا دمشق سوق الحمدية سوق النصر', 'Syria, Damascus, Al-Hamidiyah Market, Al-Nasr Market')}</p>
                                     </div>
                                 </div>
 

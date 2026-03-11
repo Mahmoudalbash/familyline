@@ -25,13 +25,13 @@ export default function Home() {
       title: t('تشكيلة الهدايا', 'Gift Collection'),
       description: t('هدايا مميزة تناسب جميع المناسبات.', 'Special gifts suitable for all occasions.'),
       icon: <Gift className="w-6 h-6 text-pink-brand" />,
-      image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/images/gift_collection.png"
     },
     {
       title: t('الأكواب (المجات)', 'Mugs'),
       description: t('أكواب بتصاميم فريدة وعصرية.', 'Mugs with unique and modern designs.'),
       icon: <Coffee className="w-6 h-6 text-pink-brand" />,
-      image: "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/images/mugs.png"
     }
   ];
 
@@ -207,7 +207,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div
-              className="relative h-96 w-full rounded-3xl overflow-hidden bg-white shadow-2xl flex items-center justify-center p-12"
+              className="relative h-96 w-full rounded-3xl overflow-hidden bg-[#dddddd] shadow-2xl flex items-center justify-center p-12"
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}

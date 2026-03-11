@@ -18,19 +18,19 @@ export default function Services() {
             id: 2,
             title: t('الأكواب السيراميك والمجات', 'Ceramic Mugs'),
             description: t('مجموعة واسعة من الأكواب والأكواب الحرارية بتصاميم تناسب كافة الأذواق وبجودة ممتازة.', 'A wide range of mugs and thermal mugs with designs suitable for all tastes and excellent quality.'),
-            image: 'https://images.unsplash.com/photo-1577937927133-66ef06acdf18?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            image: '/images/mugs.png',
         },
         {
             id: 3,
             title: t('تشكيلات الهدايا', 'Gift Collections'),
-            description: t('باقات استثنائية من صناديق الهدايا المنسقة بأسعار الجملة لتناسب محلات الهدايا والاحتفالات.', 'Exceptional bouquets of coordinated gift boxes at wholesale prices to suit gift shops and celebrations.'),
-            image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            description: t('مجموعة متنوعة من الهدايا المميزة بأسعار الجملة لتناسب جميع الأذواق ومحلات الهدايا.', 'A diverse collection of premium gifts at wholesale prices to suit all tastes and gift shops.'),
+            image: '/images/gift_collection.png',
         },
         {
             id: 4,
             title: t('إكسسوارات الشعر', 'Hair Accessories'),
             description: t('أطواق ومشابك شعر متألقة وتصاميم متنوعة تناسب المدارس والمناسبات اليومية.', 'Brilliant hairbands and clips and various designs suitable for schools and daily occasions.'),
-            image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            image: '/images/hair_accessories.png',
         },
     ];
 
