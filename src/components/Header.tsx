@@ -20,9 +20,9 @@ export default function Header() {
     return (
         <header className="bg-[#dddddd] sticky top-0 z-50 shadow-sm">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-20 md:h-24">
+                <div className="flex justify-between items-center h-24 md:h-32">
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="inline-block w-40 h-20 md:w-48 md:h-24 p-2">
+                        <Link href="/" className="inline-block w-48 h-24 md:w-64 md:h-32 p-1">
                             <img
                                 src="/logo.png"
                                 alt="Family Line Logo"
