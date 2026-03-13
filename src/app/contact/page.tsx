@@ -86,7 +86,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-lg">{t('العنوان', 'Address')}</h4>
-                                        <p className="text-gray-300 mt-1">{t('سوريا دمشق سوق الحمدية سوق النصر', 'Syria, Damascus, Al-Hamidiyah Market, Al-Nasr Market')}</p>
+                                        <p className="text-gray-300 mt-1">{t('سوريا دمشق سوق الحمدية سوق نصري', 'Syria, Damascus, Al-Hamidiyah Market, Naser Market')}</p>
                                     </div>
                                 </div>
 
@@ -96,7 +96,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-lg">{t('الهاتف', 'Phone')}</h4>
-                                        <p className="text-gray-300 mt-1 ltr:font-mono">+963 000 000 000</p>
+                                        <p className="text-gray-300 mt-1 ltr:font-mono">+963 969 900 904</p>
                                     </div>
                                 </div>
 
@@ -114,7 +114,7 @@ export default function Contact() {
                             {/* WhatsApp Prominent Section in Contact Page */}
                             <div className="mt-10 pt-8 border-t border-gray-600/50">
                                 <a
-                                    href="https://wa.me/000000000000"
+                                    href="https://wa.me/963969900904"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center justify-center gap-3 w-full bg-[#25D366] hover:bg-[#128C7E] text-white py-4 px-6 rounded-2xl font-bold transition-all hover:shadow-lg shadow-md transform hover:-translate-y-1"

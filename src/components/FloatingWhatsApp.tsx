@@ -34,7 +34,7 @@ export default function FloatingSocial() {
             </motion.a>
 
             <motion.a
-                href="https://wa.me/000000000000"
+                href="https://wa.me/963969900904"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex justify-center items-center transition-transform hover:scale-110"

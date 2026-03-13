@@ -32,6 +32,54 @@ export default function Services() {
             description: t('أطواق ومشابك شعر متألقة وتصاميم متنوعة تناسب المدارس والمناسبات اليومية.', 'Brilliant hairbands and clips and various designs suitable for schools and daily occasions.'),
             image: '/images/hair_accessories.png',
         },
+        {
+            id: 5,
+            title: t('مكياج', 'Makeup'),
+            description: t('تشكيلة مكياج بالجملة تشمل أساسيات التجميل ومنتجات يومية مختارة بعناية.', 'Wholesale makeup selection including beauty essentials and carefully chosen everyday products.'),
+            image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+            id: 6,
+            title: t('كريمات وعناية بالبشرة', 'Skincare & Creams'),
+            description: t('كريمات وعناية للبشرة بالجملة بمنتجات متنوعة تناسب مختلف الاحتياجات.', 'Wholesale creams and skincare with a variety of products for different needs.'),
+            image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+            id: 7,
+            title: t('شامبويات', 'Shampoos'),
+            description: t('شامبويات ومنتجات عناية بالشعر بالجملة بجودة ممتازة وأسعار تنافسية.', 'Wholesale shampoos and hair-care products with excellent quality and competitive prices.'),
+            image: 'https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+            id: 8,
+            title: t('ساعات ونظارات', 'Watches & Eyewear'),
+            description: t('ساعات ونظارات بالجملة بتصاميم عصرية تناسب جميع الأذواق.', 'Wholesale watches and eyewear with modern designs for all tastes.'),
+            image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+            id: 9,
+            title: t('ورد صناعي وتحف منزلية', 'Artificial Flowers & Home Decor'),
+            description: t('ورد صناعي وتحف منزلية بالجملة لإضافة لمسة جمالية للمنازل والمتاجر.', 'Wholesale artificial flowers and home decor pieces to add a beautiful touch to homes and shops.'),
+            image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+            id: 10,
+            title: t('لوحات منزلية', 'Home Wall Art'),
+            description: t('لوحات منزلية وديكورات حائط بالجملة بتصاميم أنيقة ومناسبة لمختلف المساحات.', 'Wholesale home wall art and decor with elegant designs for different spaces.'),
+            image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+            id: 11,
+            title: t('مستحضرات الأطفال وحديثي الولادة', 'Baby & Newborn Products'),
+            description: t('مستحضرات ومنتجات للأطفال وحديثي الولادة بالجملة بتركيبات لطيفة وآمنة.', 'Wholesale baby and newborn products with gentle and safe formulas.'),
+            image: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+            id: 12,
+            title: t('عطورات', 'Perfumes'),
+            description: t('عطورات بالجملة بروائح مميزة وخيارات متنوعة تناسب جميع المناسبات.', 'Wholesale perfumes with distinctive scents and a variety of options for all occasions.'),
+            image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80',
+        },
     ];
 
     return (

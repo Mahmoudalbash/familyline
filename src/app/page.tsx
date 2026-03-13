@@ -4,7 +4,20 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/components/LanguageContext';
-import { Sparkles, Gift, Coffee } from 'lucide-react';
+import {
+  Sparkles,
+  Gift,
+  Coffee,
+  Palette,
+  Heart,
+  ShowerHead,
+  Watch,
+  Glasses,
+  Flower2,
+  Frame,
+  Baby,
+  SprayCan
+} from 'lucide-react';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -17,21 +30,80 @@ export default function Home() {
   const services = [
     {
       title: t('إكسسوارات البنات', 'Girls Accessories'),
-      description: t('أحدث التشكيلات العصرية من الإكسسوارات الأنيقة.', 'The latest trendy collections of elegant accessories.'),
+      description: t('أرقى الحلي والزينة من الأساور والأقراط والخواتم والعقود بتصميمات بناتية ساحرة.', 'The finest ornaments and decorations of bracelets, earrings, rings, and necklaces with charming girlish designs.'),
       icon: <Sparkles className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: t('تشكيلة الهدايا', 'Gift Collection'),
-      description: t('هدايا مميزة تناسب جميع المناسبات.', 'Special gifts suitable for all occasions.'),
+      title: t('الأكواب السيراميك والمجات', 'Ceramic Mugs'),
+      description: t('مجموعة واسعة من الأكواب والأكواب الحرارية بتصاميم تناسب كافة الأذواق وبجودة ممتازة.', 'A wide range of mugs and thermal mugs with designs suitable for all tastes and excellent quality.'),
+      icon: <Coffee className="w-6 h-6 text-pink-brand" />,
+      image: "/images/mugs.png"
+    },
+    {
+      title: t('تشكيلات الهدايا', 'Gift Collections'),
+      description: t('مجموعة متنوعة من الهدايا المميزة بأسعار الجملة لتناسب جميع الأذواق ومحلات الهدايا.', 'A diverse collection of premium gifts at wholesale prices to suit all tastes and gift shops.'),
       icon: <Gift className="w-6 h-6 text-pink-brand" />,
       image: "/images/gift_collection.png"
     },
     {
-      title: t('الأكواب (المجات)', 'Mugs'),
-      description: t('أكواب بتصاميم فريدة وعصرية.', 'Mugs with unique and modern designs.'),
-      icon: <Coffee className="w-6 h-6 text-pink-brand" />,
-      image: "/images/mugs.png"
+      title: t('إكسسوارات الشعر', 'Hair Accessories'),
+      description: t('أطواق ومشابك شعر متألقة وتصاميم متنوعة تناسب المدارس والمناسبات اليومية.', 'Brilliant hairbands and clips and various designs suitable for schools and daily occasions.'),
+      icon: <Heart className="w-6 h-6 text-pink-brand" />,
+      image: "/images/hair_accessories.png"
+    },
+    {
+      title: t('مكياج', 'Makeup'),
+      description: t('تشكيلة مكياج بالجملة تشمل أساسيات التجميل ومنتجات يومية مختارة بعناية.', 'Wholesale makeup selection including beauty essentials and carefully chosen everyday products.'),
+      icon: <Palette className="w-6 h-6 text-pink-brand" />,
+      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: t('كريمات وعناية بالبشرة', 'Skincare & Creams'),
+      description: t('كريمات وعناية للبشرة بالجملة بمنتجات متنوعة تناسب مختلف الاحتياجات.', 'Wholesale creams and skincare with a variety of products for different needs.'),
+      icon: <Sparkles className="w-6 h-6 text-pink-brand" />,
+      image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: t('شامبويات', 'Shampoos'),
+      description: t('شامبويات ومنتجات عناية بالشعر بالجملة بجودة ممتازة وأسعار تنافسية.', 'Wholesale shampoos and hair-care products with excellent quality and competitive prices.'),
+      icon: <ShowerHead className="w-6 h-6 text-pink-brand" />,
+      image: "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: t('ساعات ونظارات', 'Watches & Eyewear'),
+      description: t('ساعات ونظارات بالجملة بتصاميم عصرية تناسب جميع الأذواق.', 'Wholesale watches and eyewear with modern designs for all tastes.'),
+      icon: (
+        <span className="flex items-center gap-1 text-pink-brand">
+          <Watch className="w-5 h-5" />
+          <Glasses className="w-5 h-5" />
+        </span>
+      ),
+      image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: t('ورد صناعي وتحف منزلية', 'Artificial Flowers & Home Decor'),
+      description: t('ورد صناعي وتحف منزلية بالجملة لإضافة لمسة جمالية للمنازل والمتاجر.', 'Wholesale artificial flowers and home decor pieces to add a beautiful touch to homes and shops.'),
+      icon: <Flower2 className="w-6 h-6 text-pink-brand" />,
+      image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: t('لوحات منزلية', 'Home Wall Art'),
+      description: t('لوحات منزلية وديكورات حائط بالجملة بتصاميم أنيقة ومناسبة لمختلف المساحات.', 'Wholesale home wall art and decor with elegant designs for different spaces.'),
+      icon: <Frame className="w-6 h-6 text-pink-brand" />,
+      image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: t('مستحضرات الأطفال وحديثي الولادة', 'Baby & Newborn Products'),
+      description: t('مستحضرات ومنتجات للأطفال وحديثي الولادة بالجملة بتركيبات لطيفة وآمنة.', 'Wholesale baby and newborn products with gentle and safe formulas.'),
+      icon: <Baby className="w-6 h-6 text-pink-brand" />,
+      image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: t('عطورات', 'Perfumes'),
+      description: t('عطورات بالجملة بروائح مميزة وخيارات متنوعة تناسب جميع المناسبات.', 'Wholesale perfumes with distinctive scents and a variety of options for all occasions.'),
+      icon: <SprayCan className="w-6 h-6 text-pink-brand" />,
+      image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=600&q=80"
     }
   ];
 
@@ -60,7 +132,7 @@ export default function Home() {
             className="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6"
             variants={fadeIn}
           >
-            {t('أناقة وتميز في عالم', 'Elegance and Distinction in')} <span className="text-pink-brand">{t('الإكسسوارات', 'Accessories')}</span>
+            {t('أناقة وتميز في عالم', 'Elegance and Distinction in')} <span className="text-pink-brand">{t('الجمال', 'Beauty')}</span>
           </motion.h1>
           <motion.p
             className="mt-4 max-w-2xl mx-auto text-xl text-gray-200 mb-10"
@@ -104,25 +176,50 @@ export default function Home() {
             <div className="w-24 h-1 bg-pink-brand mx-auto rounded-full"></div>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <motion.div
                 key={index}
-                className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-gray-100 group overflow-hidden"
-                initial={{ opacity: 0, y: 30 }}
+                className="group relative rounded-3xl overflow-hidden border border-pink-brand/10 bg-white shadow-sm hover:shadow-2xl transition-all"
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.2, duration: 1.2 }}
-                whileHover={{ y: -5 }}
+                transition={{ delay: Math.min(index, 6) * 0.06, duration: 0.9 }}
+                whileHover={{ y: -6 }}
               >
-                <div className="h-48 relative mb-6 rounded-xl overflow-hidden">
-                  <img src={service.image} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                  <div className="absolute top-4 rtl:right-4 ltr:left-4 w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-sm text-pink-brand">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-navy-brand/40 to-navy-brand opacity-0 group-hover:opacity-100 transition-opacity"></div>
+
+                <div className="relative h-44 overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute top-4 rtl:right-4 ltr:left-4 w-12 h-12 bg-white/90 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-md text-pink-brand border border-pink-brand/10">
                     {service.icon}
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-navy-brand mb-3">{service.title}</h3>
-                <p className="text-gray-600">{service.description}</p>
+
+                <div className="relative p-6">
+                  <h3 className="text-xl font-extrabold text-navy-brand group-hover:text-pink-brand transition-colors line-clamp-2">
+                    {service.title}
+                  </h3>
+                  <p className="mt-3 text-gray-600 group-hover:text-gray-100 transition-colors text-sm leading-relaxed line-clamp-3">
+                    {service.description}
+                  </p>
+
+                  <div className="mt-5 flex items-center justify-between">
+                    <span className="text-xs font-semibold text-pink-brand/80 bg-pink-brand/10 px-3 py-1 rounded-full">
+                      {t('جملة', 'Wholesale')}
+                    </span>
+                    <Link
+                      href="/services"
+                      className="text-sm font-bold text-navy-brand group-hover:text-white transition-colors"
+                    >
+                      {t('عرض المزيد', 'View more')} →
+                    </Link>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
