@@ -57,6 +57,12 @@ export default function About() {
                                         'We believe that every piece should carry a touch of modern feminine beauty. Therefore, our team works hard to choose the best designs and provide them to retailers in all Syrian governates.'
                                     )}
                                 </p>
+                                <p>
+                                    {t(
+                                        'كما نوفر تشكيلة واسعة تشمل: مكياج، اكسسوار، كريمات، شابويات، هدايا، ساعات، نظارات، ورد صناعي، تحف منزليية، لوحات منزلية، مستحضرات الاطفال، حدثين الولادة، عطورات.',
+                                        'We also offer a wide range including: makeup, accessories, creams, hair clips, gifts, watches, glasses, artificial flowers, home decor, home wall art, baby products, newborn essentials, and perfumes.'
+                                    )}
+                                </p>
                                 <p className="font-semibold text-navy-brand bg-pink-brand/10 p-4 border rtl:border-r-4 ltr:border-l-4 border-pink-brand rounded-lg">
                                     {t(
                                         'هدفنا هو أن نكون الشريك الموثوق الأول لكل متجر وتاجر يبحث عن التميز، الثقة، والمصداقية في السوق.',

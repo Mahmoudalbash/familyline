@@ -58,12 +58,12 @@ export default function Footer() {
                             <li className="flex items-start gap-3">
                                 <MapPin className="text-pink-brand flex-shrink-0 mt-1" size={20} />
                                 <span className="text-gray-300">
-                                    {t('سوريا، دمشق', 'Damascus, Syria')}
+                                    {t('سوريا دمشق سوق الحمدية سوق نصري', 'Syria, Damascus, Al-Hamidiyah Market, Naser Market')}
                                 </span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <Phone className="text-pink-brand flex-shrink-0 mt-1" size={20} />
-                                <span className="text-gray-300 ltr:font-mono">+963 000 000 000</span>
+                                <span className="text-gray-300 ltr:font-mono">+963 969 900 904</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <Mail className="text-pink-brand flex-shrink-0 mt-1" size={20} />
