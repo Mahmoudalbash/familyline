@@ -139,8 +139,8 @@ export default function Home() {
             variants={fadeIn}
           >
             {t(
-              'نقدم للسوق السوري أفضل خيارات الجملة من إكسسوارات البنات، الهدايا، والأكواب بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
-              'We offer the Syrian market the best wholesale options of girls accessories, gifts, and mugs with trendy designs and high quality.'
+              'نقدم للسوق السوري أفضل خيارات الجملة من: مكياج، اكسسوار، كريمات، شابويات، هدايا، ساعات، نظارات، ورد صناعي، تحف منزليية، لوحات منزلية، مستحضرات الاطفال وحديثين الولادة، عطورات. بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
+              'We offer the Syrian market the best wholesale options of makeup, accessories, creams, shampoos, gifts, watches, eyewear, artificial flowers, home decor, wall art, baby & newborn products, and perfumes with trendy designs and high quality.'
             )}
           </motion.p>
           <motion.div variants={fadeIn} className="flex flex-wrap justify-center gap-4">
