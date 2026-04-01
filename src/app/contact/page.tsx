@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/components/LanguageContext';
-import { Mail, MapPin, Phone, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, Phone, MessageCircle, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export default function Contact() {
     const { t } = useLanguage();
@@ -184,7 +184,7 @@ export default function Contact() {
                                 ></textarea>
                             </div>
 
-                            <div className="flex flex-col md:flex-row items-center gap-4">
+                            <div className="flex flex-col gap-4">
                                 <button
                                     type="submit"
                                     disabled={status === 'sending'}
@@ -200,25 +200,37 @@ export default function Contact() {
                                     )}
                                 </button>
 
-                                {status === 'success' && (
-                                    <motion.p
-                                        initial={{ opacity: 0, x: -10 }}
-                                        animate={{ opacity: 1, x: 0 }}
-                                        className="text-green-600 font-bold"
-                                    >
-                                        {t('تم إرسال الرسالة بنجاح!', 'Message sent successfully!')}
-                                    </motion.p>
-                                )}
+                                <AnimatePresence mode="wait">
+                                    {status === 'success' && (
+                                        <motion.div
+                                            key="success-message"
+                                            initial={{ opacity: 0, scale: 0.95, y: 10 }}
+                                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                                            exit={{ opacity: 0, scale: 0.95, y: 10 }}
+                                            className="flex items-center gap-3 p-4 rounded-xl bg-green-50 border border-green-100 text-green-700 w-full"
+                                        >
+                                            <CheckCircle2 size={20} className="shrink-0 text-green-500" />
+                                            <span className="font-semibold">
+                                                {t('تم إرسال الرسالة بنجاح! شكراً لتواصلكم معنا.', 'Message sent successfully! Thank you for reaching out.')}
+                                            </span>
+                                        </motion.div>
+                                    )}
 
-                                {status === 'error' && (
-                                    <motion.p
-                                        initial={{ opacity: 0, x: -10 }}
-                                        animate={{ opacity: 1, x: 0 }}
-                                        className="text-red-500 font-bold"
-                                    >
-                                        {t('حدث خطأ، يرجى المحاولة لاحقاً.', 'An error occurred, please try again.')}
-                                    </motion.p>
-                                )}
+                                    {status === 'error' && (
+                                        <motion.div
+                                            key="error-message"
+                                            initial={{ opacity: 0, scale: 0.95, y: 10 }}
+                                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                                            exit={{ opacity: 0, scale: 0.95, y: 10 }}
+                                            className="flex items-center gap-3 p-4 rounded-xl bg-red-50 border border-red-100 text-red-700 w-full"
+                                        >
+                                            <AlertCircle size={20} className="shrink-0 text-red-500" />
+                                            <span className="font-semibold">
+                                                {t('حدث خطأ، يرجى المحاولة لاحقاً أو التواصل عبر واتساب.', 'An error occurred, please try again later or contact us via WhatsApp.')}
+                                            </span>
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
                             </div>
                         </form>
                     </motion.div>
