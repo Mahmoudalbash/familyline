@@ -142,14 +142,15 @@ export default function Home() {
           </motion.div>
 
           <motion.h1
-            className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-6 drop-shadow-md"
+            className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4 md:mb-6 drop-shadow-md leading-tight"
             variants={fadeIn}
           >
-            {t('أناقة وتميز في عالم', 'Elegance and Distinction in')} <span className="text-pink-brand drop-shadow-sm">{t('الجمال', 'Beauty')}</span>
+            {t('أناقة وتميز في عالم', 'Elegance and Distinction in')}{' '}
+            <span className="text-pink-brand drop-shadow-sm block sm:inline mt-1 sm:mt-0">{t('الجمال', 'Beauty')}</span>
           </motion.h1>
 
           <motion.p
-            className="mt-2 max-w-3xl mx-auto text-xl md:text-2xl text-gray-100 mb-10 leading-relaxed font-medium drop-shadow"
+            className="mt-2 max-w-3xl mx-auto text-base sm:text-lg md:text-2xl text-gray-100 mb-8 md:mb-10 leading-relaxed font-medium drop-shadow px-4 sm:px-0"
             variants={fadeIn}
           >
             {t(
