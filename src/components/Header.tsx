@@ -20,7 +20,7 @@ export default function Header() {
     return (
         <header className="bg-[#dddddd] sticky top-0 z-50 shadow-sm">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-24 md:h-32">
+                <div className="relative flex justify-between items-center h-24 md:h-32">
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="inline-block w-48 h-24 md:w-64 md:h-32 p-1">
                             <img
@@ -31,19 +31,19 @@ export default function Header() {
                         </Link>
                     </div>
 
-                    <nav className="hidden md:flex items-center gap-16">
+                    <nav className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center gap-20 xl:gap-28 z-10 w-max">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className="text-navy-brand hover:text-pink-brand transition-colors font-medium text-lg"
+                                className="text-navy-brand hover:text-pink-brand transition-colors font-bold text-xl"
                             >
                                 {link.label}
                             </Link>
                         ))}
                     </nav>
 
-                    <div className="hidden md:flex items-center space-x-4 rtl:space-x-reverse">
+                    <div className="hidden lg:flex items-center space-x-4 rtl:space-x-reverse relative z-10">
                         <button
                             onClick={toggleLanguage}
                             className="flex items-center space-x-2 rtl:space-x-reverse text-navy-brand hover:bg-gray-brand/50 px-3 py-2 rounded-full transition-colors"
@@ -53,7 +53,7 @@ export default function Header() {
                         </button>
                     </div>
 
-                    <div className="flex md:hidden items-center space-x-4 rtl:space-x-reverse">
+                    <div className="flex lg:hidden items-center space-x-4 rtl:space-x-reverse relative z-10">
                         <button
                             onClick={toggleLanguage}
                             className="text-navy-brand p-2"
@@ -76,7 +76,7 @@ export default function Header() {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="md:hidden bg-white border-b border-gray-brand"
+                        className="lg:hidden bg-white border-b border-gray-brand"
                     >
                         <div className="px-4 pt-2 pb-6 space-y-2">
                             {navLinks.map((link) => (

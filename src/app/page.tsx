@@ -122,25 +122,39 @@ export default function Home() {
         </div>
 
         <motion.div
-          className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
+          className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
         >
+          <motion.div variants={fadeIn} className="mb-6 flex flex-col items-center">
+            <div className="bg-white/90 backdrop-blur-sm p-4 rounded-3xl mb-4 shadow-2xl border border-white/20">
+              <img
+                src="/logo.png"
+                alt="Family Line Logo"
+                className="h-28 md:h-36 w-auto object-contain"
+              />
+            </div>
+            <h2 className="text-4xl md:text-6xl font-black text-white tracking-widest uppercase font-serif drop-shadow-lg mb-2">
+              Family Line
+            </h2>
+          </motion.div>
+
           <motion.h1
-            className="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6"
+            className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-6 drop-shadow-md"
             variants={fadeIn}
           >
-            {t('أناقة وتميز في عالم', 'Elegance and Distinction in')} <span className="text-pink-brand">{t('الجمال', 'Beauty')}</span>
+            {t('أناقة وتميز في عالم', 'Elegance and Distinction in')} <span className="text-pink-brand drop-shadow-sm">{t('الجمال', 'Beauty')}</span>
           </motion.h1>
+
           <motion.p
-            className="mt-4 max-w-2xl mx-auto text-xl text-gray-200 mb-10"
+            className="mt-2 max-w-3xl mx-auto text-xl md:text-2xl text-gray-100 mb-10 leading-relaxed font-medium drop-shadow"
             variants={fadeIn}
           >
             {t(
-              'نقدم للسوق السوري أفضل خيارات الجملة من: مكياج، اكسسوار، كريمات، شابويات، هدايا، ساعات، نظارات، ورد صناعي، تحف منزليية، لوحات منزلية، مستحضرات الاطفال وحديثين الولادة، عطورات. بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
-              'We offer the Syrian market the best wholesale options of makeup, accessories, creams, shampoos, gifts, watches, eyewear, artificial flowers, home decor, wall art, baby & newborn products, and perfumes with trendy designs and high quality.'
+              'نقدم للسوق السوري أفضل خيارات الجملة المتنوعة من مستحضرات التجميل، الإكسسوارات، الهدايا، والمستلزمات المنزلية بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
+              'We offer the Syrian market the best diverse wholesale options including cosmetics, accessories, gifts, and home essentials with trendy designs and high quality that suit your refined taste.'
             )}
           </motion.p>
           <motion.div variants={fadeIn} className="flex flex-wrap justify-center gap-4">
@@ -171,7 +185,7 @@ export default function Home() {
             variants={fadeIn}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-navy-brand mb-4">
-              {t('ماذا نقدم؟', 'What Do We Offer?')}
+              {t('خدماتنا', 'Our Services')}
             </h2>
             <div className="w-24 h-1 bg-pink-brand mx-auto rounded-full"></div>
           </motion.div>

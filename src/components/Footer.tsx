@@ -71,7 +71,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-start gap-3 mt-4">
                                 <a
-                                    href="https://wa.me/000000000000"
+                                    href="https://api.whatsapp.com/send/?phone=963969900904&text&type=phone_number&app_absent=0"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full transition-colors font-medium text-sm"
