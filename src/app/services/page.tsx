@@ -23,7 +23,7 @@ export default function Services() {
         {
             id: 3,
             title: t('تشكيلات الهدايا', 'Gift Collections'),
-            description: t('مجموعة متنوعة من الهدايا المميزة بأسعار الجملة لتناسب جميع الأذواق ومحلات الهدايا.', 'A diverse collection of premium gifts at wholesale prices to suit all tastes and gift shops.'),
+            description: t('مجموعة متنوعة من الهدايا المميزة بأسعار الجملة والمفرق لتناسب جميع الأذواق ومحلات الهدايا.', 'A diverse collection of premium gifts at wholesale and retail prices to suit all tastes and gift shops.'),
             image: '/images/gift_collection.png',
         },
         {
@@ -35,49 +35,49 @@ export default function Services() {
         {
             id: 5,
             title: t('مكياج', 'Makeup'),
-            description: t('تشكيلة مكياج بالجملة تشمل أساسيات التجميل ومنتجات يومية مختارة بعناية.', 'Wholesale makeup selection including beauty essentials and carefully chosen everyday products.'),
+            description: t('تشكيلة مكياج بالجملة والمفرق تشمل أساسيات التجميل ومنتجات يومية مختارة بعناية.', 'Wholesale and Retail makeup selection including beauty essentials and carefully chosen everyday products.'),
             image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80',
         },
         {
             id: 6,
             title: t('كريمات وعناية بالبشرة', 'Skincare & Creams'),
-            description: t('كريمات وعناية للبشرة بالجملة بمنتجات متنوعة تناسب مختلف الاحتياجات.', 'Wholesale creams and skincare with a variety of products for different needs.'),
+            description: t('كريمات وعناية للبشرة بالجملة والمفرق بمنتجات متنوعة تناسب مختلف الاحتياجات.', 'Wholesale and Retail creams and skincare with a variety of products for different needs.'),
             image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=800&q=80',
         },
         {
             id: 7,
             title: t('شامبويات', 'Shampoos'),
-            description: t('شامبويات ومنتجات عناية بالشعر بالجملة بجودة ممتازة وأسعار تنافسية.', 'Wholesale shampoos and hair-care products with excellent quality and competitive prices.'),
+            description: t('شامبويات ومنتجات عناية بالشعر بالجملة والمفرق بجودة ممتازة وأسعار تنافسية.', 'Wholesale and Retail shampoos and hair-care products with excellent quality and competitive prices.'),
             image: 'https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800&q=80',
         },
         {
             id: 8,
             title: t('ساعات ونظارات', 'Watches & Eyewear'),
-            description: t('ساعات ونظارات بالجملة بتصاميم عصرية تناسب جميع الأذواق.', 'Wholesale watches and eyewear with modern designs for all tastes.'),
+            description: t('ساعات ونظارات بالجملة والمفرق بتصاميم عصرية تناسب جميع الأذواق.', 'Wholesale and Retail watches and eyewear with modern designs for all tastes.'),
             image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80',
         },
         {
             id: 9,
             title: t('ورد صناعي وتحف منزلية', 'Artificial Flowers & Home Decor'),
-            description: t('ورد صناعي وتحف منزلية بالجملة لإضافة لمسة جمالية للمنازل والمتاجر.', 'Wholesale artificial flowers and home decor pieces to add a beautiful touch to homes and shops.'),
+            description: t('ورد صناعي وتحف منزلية بالجملة والمفرق لإضافة لمسة جمالية للمنازل والمتاجر.', 'Wholesale and Retail artificial flowers and home decor pieces to add a beautiful touch to homes and shops.'),
             image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80',
         },
         {
             id: 10,
             title: t('لوحات منزلية', 'Home Wall Art'),
-            description: t('لوحات منزلية وديكورات حائط بالجملة بتصاميم أنيقة ومناسبة لمختلف المساحات.', 'Wholesale home wall art and decor with elegant designs for different spaces.'),
+            description: t('لوحات منزلية وديكورات حائط بالجملة والمفرق بتصاميم أنيقة ومناسبة لمختلف المساحات.', 'Wholesale and Retail home wall art and decor with elegant designs for different spaces.'),
             image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80',
         },
         {
             id: 11,
             title: t('مستحضرات الأطفال وحديثي الولادة', 'Baby & Newborn Products'),
-            description: t('مستحضرات ومنتجات للأطفال وحديثي الولادة بالجملة بتركيبات لطيفة وآمنة.', 'Wholesale baby and newborn products with gentle and safe formulas.'),
+            description: t('مستحضرات ومنتجات للأطفال وحديثي الولادة بالجملة والمفرق بتركيبات لطيفة وآمنة.', 'Wholesale and Retail baby and newborn products with gentle and safe formulas.'),
             image: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80',
         },
         {
             id: 12,
             title: t('عطورات', 'Perfumes'),
-            description: t('عطورات بالجملة بروائح مميزة وخيارات متنوعة تناسب جميع المناسبات.', 'Wholesale perfumes with distinctive scents and a variety of options for all occasions.'),
+            description: t('عطورات بالجملة والمفرق بروائح مميزة وخيارات متنوعة تناسب جميع المناسبات.', 'Wholesale and Retail perfumes with distinctive scents and a variety of options for all occasions.'),
             image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80',
         },
     ];
@@ -93,10 +93,10 @@ export default function Services() {
                     transition={{ duration: 1.2 }}
                 >
                     <h1 className="text-4xl md:text-5xl font-bold text-navy-brand mb-4">
-                        {t('خدمات الجملة لدينا', 'Our Wholesale Services')}
+                        {t('خدمات الجملة والمفرق لدينا', 'Our Wholesale and Retail Services')}
                     </h1>
                     <p className="max-w-2xl mx-auto text-lg text-gray-600 mb-6">
-                        {t('نوفر لتجار الجملة في سوريا تشكيلة شاملة من الإكسسوارات والهدايا بأفضل جودة وسعر.', 'We provide wholesalers in Syria with a comprehensive range of accessories and gifts with the best quality and price.')}
+                        {t('نوفر لتجار الجملة والمفرق في سوريا تشكيلة شاملة من الإكسسوارات والهدايا بأفضل جودة وسعر.', 'We provide wholesale and retailrs in Syria with a comprehensive range of accessories and gifts with the best quality and price.')}
                     </p>
                     <div className="w-24 h-1 bg-pink-brand mx-auto rounded-full"></div>
                 </motion.div>

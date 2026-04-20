@@ -23,8 +23,8 @@ export default function About() {
                     </h1>
                     <p className="text-xl text-gray-300">
                         {t(
-                            'التميز والجودة في سوق الجملة السوري لاكسسوارات البنات.',
-                            'Excellence and quality in the Syrian wholesale market for girls accessories.'
+                            'التميز والجودة في سوق الجملة والمفرق السوري لاكسسوارات البنات.',
+                            'Excellence and quality in the Syrian wholesale and retail market for girls accessories.'
                         )}
                     </p>
                 </motion.div>
@@ -47,8 +47,8 @@ export default function About() {
                             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                                 <p>
                                     {t(
-                                        'تأسست "فاميلي لاين" برؤية واضحة تهدف إلى تلبية احتياجات السوق السوري المتنامية من منتجات الاكسسوارات، الهدايا، والمجات بأسعار الجملة، دون المساومة على الجودة أو الأناقة.',
-                                        'Family Line was established with a clear vision aimed at meeting the growing needs of the Syrian market for accessories, gifts, and mugs at wholesale prices, without compromising on quality or elegance.'
+                                        'تأسست "فاميلي لاين" برؤية واضحة تهدف إلى تلبية احتياجات السوق السوري المتنامية من منتجات الاكسسوارات، الهدايا، والمجات بأسعار الجملة والمفرق، دون المساومة على الجودة أو الأناقة.',
+                                        'Family Line was established with a clear vision aimed at meeting the growing needs of the Syrian market for accessories, gifts, and mugs at wholesale and retail prices, without compromising on quality or elegance.'
                                     )}
                                 </p>
                                 <p>

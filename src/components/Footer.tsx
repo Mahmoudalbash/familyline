@@ -94,7 +94,7 @@ export default function Footer() {
                         <a href="https://zaytoon.site" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-brand transition-colors font-bold underline decoration-pink-brand/50 underline-offset-4">
                             {t('وكالة زيتون', 'Zaytoon Agency')}
                         </a>
-                        {t('من أجل سوق الجملة السوري', 'for the Syrian wholesale market')}
+                        {t('من أجل سوق الجملة والمفرق السوري', 'for the Syrian wholesale and retail market')}
                     </p>
                 </div>
             </div>

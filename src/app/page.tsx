@@ -42,7 +42,7 @@ export default function Home() {
     },
     {
       title: t('تشكيلات الهدايا', 'Gift Collections'),
-      description: t('مجموعة متنوعة من الهدايا المميزة بأسعار الجملة لتناسب جميع الأذواق ومحلات الهدايا.', 'A diverse collection of premium gifts at wholesale prices to suit all tastes and gift shops.'),
+      description: t('مجموعة متنوعة من الهدايا المميزة بأسعار الجملة والمفرق لتناسب جميع الأذواق ومحلات الهدايا.', 'A diverse collection of premium gifts at wholesale and retail prices to suit all tastes and gift shops.'),
       icon: <Gift className="w-6 h-6 text-pink-brand" />,
       image: "/images/gift_collection.png"
     },
@@ -54,25 +54,25 @@ export default function Home() {
     },
     {
       title: t('مكياج', 'Makeup'),
-      description: t('تشكيلة مكياج بالجملة تشمل أساسيات التجميل ومنتجات يومية مختارة بعناية.', 'Wholesale makeup selection including beauty essentials and carefully chosen everyday products.'),
+      description: t('تشكيلة مكياج بالجملة والمفرق تشمل أساسيات التجميل ومنتجات يومية مختارة بعناية.', 'Wholesale and Retail makeup selection including beauty essentials and carefully chosen everyday products.'),
       icon: <Palette className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: t('كريمات وعناية بالبشرة', 'Skincare & Creams'),
-      description: t('كريمات وعناية للبشرة بالجملة بمنتجات متنوعة تناسب مختلف الاحتياجات.', 'Wholesale creams and skincare with a variety of products for different needs.'),
+      description: t('كريمات وعناية للبشرة بالجملة والمفرق بمنتجات متنوعة تناسب مختلف الاحتياجات.', 'Wholesale and Retail creams and skincare with a variety of products for different needs.'),
       icon: <Sparkles className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: t('شامبويات', 'Shampoos'),
-      description: t('شامبويات ومنتجات عناية بالشعر بالجملة بجودة ممتازة وأسعار تنافسية.', 'Wholesale shampoos and hair-care products with excellent quality and competitive prices.'),
+      description: t('شامبويات ومنتجات عناية بالشعر بالجملة والمفرق بجودة ممتازة وأسعار تنافسية.', 'Wholesale and Retail shampoos and hair-care products with excellent quality and competitive prices.'),
       icon: <ShowerHead className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: t('ساعات ونظارات', 'Watches & Eyewear'),
-      description: t('ساعات ونظارات بالجملة بتصاميم عصرية تناسب جميع الأذواق.', 'Wholesale watches and eyewear with modern designs for all tastes.'),
+      description: t('ساعات ونظارات بالجملة والمفرق بتصاميم عصرية تناسب جميع الأذواق.', 'Wholesale and Retail watches and eyewear with modern designs for all tastes.'),
       icon: (
         <span className="flex items-center gap-1 text-pink-brand">
           <Watch className="w-5 h-5" />
@@ -83,25 +83,25 @@ export default function Home() {
     },
     {
       title: t('ورد صناعي وتحف منزلية', 'Artificial Flowers & Home Decor'),
-      description: t('ورد صناعي وتحف منزلية بالجملة لإضافة لمسة جمالية للمنازل والمتاجر.', 'Wholesale artificial flowers and home decor pieces to add a beautiful touch to homes and shops.'),
+      description: t('ورد صناعي وتحف منزلية بالجملة والمفرق لإضافة لمسة جمالية للمنازل والمتاجر.', 'Wholesale and Retail artificial flowers and home decor pieces to add a beautiful touch to homes and shops.'),
       icon: <Flower2 className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: t('لوحات منزلية', 'Home Wall Art'),
-      description: t('لوحات منزلية وديكورات حائط بالجملة بتصاميم أنيقة ومناسبة لمختلف المساحات.', 'Wholesale home wall art and decor with elegant designs for different spaces.'),
+      description: t('لوحات منزلية وديكورات حائط بالجملة والمفرق بتصاميم أنيقة ومناسبة لمختلف المساحات.', 'Wholesale and Retail home wall art and decor with elegant designs for different spaces.'),
       icon: <Frame className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: t('مستحضرات الأطفال وحديثي الولادة', 'Baby & Newborn Products'),
-      description: t('مستحضرات ومنتجات للأطفال وحديثي الولادة بالجملة بتركيبات لطيفة وآمنة.', 'Wholesale baby and newborn products with gentle and safe formulas.'),
+      description: t('مستحضرات ومنتجات للأطفال وحديثي الولادة بالجملة والمفرق بتركيبات لطيفة وآمنة.', 'Wholesale and Retail baby and newborn products with gentle and safe formulas.'),
       icon: <Baby className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=600&q=80"
     },
     {
       title: t('عطورات', 'Perfumes'),
-      description: t('عطورات بالجملة بروائح مميزة وخيارات متنوعة تناسب جميع المناسبات.', 'Wholesale perfumes with distinctive scents and a variety of options for all occasions.'),
+      description: t('عطورات بالجملة والمفرق بروائح مميزة وخيارات متنوعة تناسب جميع المناسبات.', 'Wholesale and Retail perfumes with distinctive scents and a variety of options for all occasions.'),
       icon: <SprayCan className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=600&q=80"
     }
@@ -154,8 +154,8 @@ export default function Home() {
             variants={fadeIn}
           >
             {t(
-              'نقدم للسوق السوري أفضل خيارات الجملة المتنوعة من مستحضرات التجميل، الإكسسوارات، الهدايا، والمستلزمات المنزلية بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
-              'We offer the Syrian market the best diverse wholesale options including cosmetics, accessories, gifts, and home essentials with trendy designs and high quality that suit your refined taste.'
+              'نقدم للسوق السوري أفضل خيارات الجملة والمفرق المتنوعة من مستحضرات التجميل، الإكسسوارات، الهدايا، والمستلزمات المنزلية بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
+              'We offer the Syrian market the best diverse wholesale and retail options including cosmetics, accessories, gifts, and home essentials with trendy designs and high quality that suit your refined taste.'
             )}
           </motion.p>
           <motion.div variants={fadeIn} className="flex flex-wrap justify-center gap-4">
@@ -225,7 +225,7 @@ export default function Home() {
 
                   <div className="mt-5 flex items-center justify-between">
                     <span className="text-xs font-semibold text-pink-brand/80 bg-pink-brand/10 px-3 py-1 rounded-full">
-                      {t('جملة', 'Wholesale')}
+                      {t('جملة ومفرق', 'Wholesale and Retail')}
                     </span>
                     <Link
                       href="/services"
@@ -262,7 +262,7 @@ export default function Home() {
             {[
               { icon: <svg className="w-10 h-10 text-pink-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>, title: t('توصيل سريع', 'Fast Delivery'), desc: t('إلى كافة المحافظات', 'To all governorates') },
               { icon: <svg className="w-10 h-10 text-pink-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>, title: t('جودة مضمونة', 'Premium Quality'), desc: t('أفضل الخامات والمواد', 'Best materials') },
-              { icon: <svg className="w-10 h-10 text-pink-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>, title: t('أسعار تنافسية', 'Competitive Prices'), desc: t('عروض خاصة للجملة', 'Special wholesale offers') },
+              { icon: <svg className="w-10 h-10 text-pink-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>, title: t('أسعار تنافسية', 'Competitive Prices'), desc: t('عروض خاصة للجملة والمفرق', 'Special wholesale and retail offers') },
               { icon: <svg className="w-10 h-10 text-pink-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" /></svg>, title: t('خدمة عملاء ممتازة', 'Excellent Support'), desc: t('دائماً في خدمتكم', 'Always at your service') },
             ].map((feature, idx) => (
               <motion.div
@@ -305,8 +305,8 @@ export default function Home() {
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 {t(
-                  'تأسست فاميلي لاين لتكون الخيار الأول في عالم الجملة للإكسسوارات والهدايا في السوق السوري. نحن نهتم بأدق التفاصيل لنوفر لعملائنا منتجات تجمع بين الأناقة العصرية والجودة العالية.',
-                  'Family Line was established to be the first choice in the wholesale world of accessories and gifts in the Syrian market. We care about the finest details to provide our customers with products that combine modern elegance and high quality.'
+                  'تأسست فاميلي لاين لتكون الخيار الأول في عالم الجملة والمفرق للإكسسوارات والهدايا في السوق السوري. نحن نهتم بأدق التفاصيل لنوفر لعملائنا منتجات تجمع بين الأناقة العصرية والجودة العالية.',
+                  'Family Line was established to be the first choice in the wholesale and retail world of accessories and gifts in the Syrian market. We care about the finest details to provide our customers with products that combine modern elegance and high quality.'
                 )}
               </p>
               <Link
@@ -352,8 +352,8 @@ export default function Home() {
           </h2>
           <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
             {t(
-              'تواصل معنا الآن للتعرف على أحدث العروض والتشكيلات المتوفرة لدينا لطلبات الجملة.',
-              'Contact us now to explore the latest offers and collections available for wholesale orders.'
+              'تواصل معنا الآن للتعرف على أحدث العروض والتشكيلات المتوفرة لدينا لطلبات الجملة والمفرق.',
+              'Contact us now to explore the latest offers and collections available for wholesale and retail orders.'
             )}
           </p>
           <Link

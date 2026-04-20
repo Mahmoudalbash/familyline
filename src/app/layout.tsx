@@ -17,13 +17,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Family Line | فاميلي لاين - إكسسوارات ومكياج بالجملة",
-  description: "الوجهة الأولى للإكسسوارات، المكياج، الهدايا، العطورات والأكواب بالجملة في السوق السوري. جودة عالية وأسعار منافسة.",
-  keywords: ["جملة", "إكسسوارات", "مكياج", "هدايا", "عطورات", "أكواب", "سوريا", "دمشق", "Family Line", "Wholesale", "Accessories"],
+  title: "Family Line | فاميلي لاين - إكسسوارات ومكياج بالجملة والمفرق",
+  description: "الوجهة الأولى للإكسسوارات، المكياج، الهدايا، العطورات والأكواب بالجملة والمفرق في السوق السوري. جودة عالية وأسعار منافسة.",
+  keywords: ["جملة ومفرق", "إكسسوارات", "مكياج", "هدايا", "عطورات", "أكواب", "سوريا", "دمشق", "Family Line", "Wholesale and Retail", "Accessories"],
   authors: [{ name: "Family Line" }],
   openGraph: {
     title: "Family Line | فاميلي لاين - التميز في عالم الجمال",
-    description: "أفضل خيارات الجملة من المكياج، والإكسسوارات، والهدايا في سوريا بتصاميم عصرية وأسعار منافسة.",
+    description: "أفضل خيارات الجملة والمفرق من المكياج، والإكسسوارات، والهدايا في سوريا بتصاميم عصرية وأسعار منافسة.",
     type: "website",
     locale: "ar_SY",
     url: "https://familyline.site",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Family Line | فاميلي لاين",
-    description: "الوجهة الأولى للإكسسوارات والمكياج والهدايا بالجملة في السوق السوري.",
+    description: "الوجهة الأولى للإكسسوارات والمكياج والهدايا بالجملة والمفرق في السوق السوري.",
     images: ["/logo.png"],
   },
 };

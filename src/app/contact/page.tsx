@@ -58,7 +58,7 @@ export default function Contact() {
                         {t('يسعدنا تواصلكم معنا', 'We Are Happy To Hear From You')}
                     </h1>
                     <p className="max-w-2xl mx-auto text-lg text-gray-600 mb-6">
-                        {t('للاستفسارات عن المنتجات، الأسعار، أو عروض الجملة، لا تترددوا بالاتصال بنا.', 'For inquiries about products, prices, or wholesale offers, do not hesitate to contact us.')}
+                        {t('للاستفسارات عن المنتجات، الأسعار، أو عروض الجملة والمفرق، لا تترددوا بالاتصال بنا.', 'For inquiries about products, prices, or wholesale and retail offers, do not hesitate to contact us.')}
                     </p>
                     <div className="w-24 h-1 bg-pink-brand mx-auto rounded-full"></div>
                 </motion.div>

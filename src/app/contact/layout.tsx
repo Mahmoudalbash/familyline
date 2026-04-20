@@ -2,10 +2,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'تواصل معنا - فاميلي لاين | Contact Us - Family Line',
-  description: 'يسعدنا تواصلكم معنا. للاستفسارات عن المنتجات، الأسعار، أو عروض الجملة في سوريا.',
+  description: 'يسعدنا تواصلكم معنا. للاستفسارات عن المنتجات، الأسعار، أو عروض الجملة والمفرق في سوريا.',
   openGraph: {
     title: 'تواصل معنا - فاميلي لاين',
-    description: 'تواصل مع فريق فاميلي لاين في دمشق لطلبات الجملة.',
+    description: 'تواصل مع فريق فاميلي لاين في دمشق لطلبات الجملة والمفرق.',
     url: 'https://familyline.site/contact',
   },
 };
