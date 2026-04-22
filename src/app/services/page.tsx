@@ -46,8 +46,8 @@ export default function Services() {
         },
         {
             id: 7,
-            title: t('شامبويات', 'Shampoos'),
-            description: t('شامبويات ومنتجات عناية بالشعر بالجملة والمفرق بجودة ممتازة وأسعار تنافسية.', 'Wholesale and Retail shampoos and hair-care products with excellent quality and competitive prices.'),
+            title: t('شامبوهات', 'Shampoos'),
+            description: t('شامبوهات ومنتجات عناية بالشعر بالجملة والمفرق بجودة ممتازة وأسعار تنافسية.', 'Wholesale and Retail shampoos and hair-care products with excellent quality and competitive prices.'),
             image: 'https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800&q=80',
         },
         {

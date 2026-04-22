@@ -65,8 +65,8 @@ export default function Home() {
       image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: t('شامبويات', 'Shampoos'),
-      description: t('شامبويات ومنتجات عناية بالشعر بالجملة والمفرق بجودة ممتازة وأسعار تنافسية.', 'Wholesale and Retail shampoos and hair-care products with excellent quality and competitive prices.'),
+      title: t('شامبوهات', 'Shampoos'),
+      description: t('شامبوهات ومنتجات عناية بالشعر بالجملة والمفرق بجودة ممتازة وأسعار تنافسية.', 'Wholesale and Retail shampoos and hair-care products with excellent quality and competitive prices.'),
       icon: <ShowerHead className="w-6 h-6 text-pink-brand" />,
       image: "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=600&q=80"
     },
@@ -154,7 +154,7 @@ export default function Home() {
             variants={fadeIn}
           >
             {t(
-              'نقدم للسوق السوري أفضل خيارات الجملة والمفرق المتنوعة من مستحضرات التجميل، الإكسسوارات، الهدايا، والمستلزمات المنزلية بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
+              'نقدم للسوق السوري أفضل خيارات الجملة والمفرق المتنوعة من مستحضرات التجميل،  والتحف المنزلية بتصاميم عصرية وجودة عالية تناسب ذوقكم الرفيع.',
               'We offer the Syrian market the best diverse wholesale and retail options including cosmetics, accessories, gifts, and home essentials with trendy designs and high quality that suit your refined taste.'
             )}
           </motion.p>
@@ -253,7 +253,7 @@ export default function Home() {
             variants={fadeIn}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-navy-brand mb-4">
-              {t('لماذا تختار Family Line؟', 'Why Choose Family Line?')}
+              {t('لماذا تختار Family Line', 'Why Choose Family Line?')}
             </h2>
             <div className="w-24 h-1 bg-pink-brand mx-auto rounded-full"></div>
           </motion.div>
@@ -348,7 +348,7 @@ export default function Home() {
           variants={fadeIn}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            {t('هل أنتم مستعدون للتميز؟', 'Are you ready to stand out?')}
+            {t('هل انت مستعد للتميز', 'Are you ready to stand out?')}
           </h2>
           <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
             {t(
