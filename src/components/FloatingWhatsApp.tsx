@@ -8,7 +8,7 @@ export default function FloatingSocial() {
     return (
         <div className="fixed bottom-6 rtl:left-6 ltr:right-6 z-50 flex flex-col gap-4">
             <motion.a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/18hF45Dngp/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg flex justify-center items-center transition-transform hover:scale-110"
@@ -21,7 +21,7 @@ export default function FloatingSocial() {
             </motion.a>
 
             <motion.a
-                href="https://instagram.com"
+                href="https://www.instagram.com/family__line_?igsh=cnUzNjR6NWt0Z2Zy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:from-yellow-500 hover:via-pink-600 hover:to-purple-700 text-white p-4 rounded-full shadow-lg flex justify-center items-center transition-transform hover:scale-110"
